@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: Run linter
-        run: npx eslint app.js
+        run: ./node_modules/.bin/eslint app.js
 
       - name: Run tests
         run: npm test
