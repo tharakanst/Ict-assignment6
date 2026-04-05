@@ -1,0 +1,21 @@
+{
+  "name": "ict-assignment6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node -e \"process.exit(0)\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tharakanst/Ict-assignment6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tharakanst/Ict-assignment6/issues"
+  },
+  "homepage": "https://github.com/tharakanst/Ict-assignment6#readme"
+}
