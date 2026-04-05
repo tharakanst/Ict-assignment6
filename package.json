@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/tharakanst/Ict-assignment6/issues"
   },
-  "homepage": "https://github.com/tharakanst/Ict-assignment6#readme"
+  "homepage": "https://github.com/tharakanst/Ict-assignment6#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.2.0"
+  }
 }
