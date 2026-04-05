@@ -2,7 +2,7 @@ name: CI Pipeline
 
 on:
   push:
-    branches: [main, feature/ci-setup]
+    branches: [main, feature/add-tests]
   pull_request:
     branches: [main]
 
@@ -21,6 +21,12 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+
+      - name: Run linter
+        run: npx eslint app.js
+
+      - name: Run tests
+        run: npm test
 
       - name: Run app
         run: node app.js
